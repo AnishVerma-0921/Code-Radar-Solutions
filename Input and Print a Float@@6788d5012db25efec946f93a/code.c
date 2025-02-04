@@ -8,6 +8,6 @@ int main() {
     float x;
     scanf("%f",&x);
     
-    printf("you entered %f",x);
+    printf("you entered: %.2f",x);
     
 }
