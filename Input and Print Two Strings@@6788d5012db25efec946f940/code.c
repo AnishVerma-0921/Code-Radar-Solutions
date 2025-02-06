@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+    char x[50],j[50];
+    scanf("%c%c",&x,&j);
+    printf("You entered: %c and %d",x,j);
+}
