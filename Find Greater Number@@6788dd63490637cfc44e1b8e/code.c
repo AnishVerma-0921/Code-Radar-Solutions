@@ -10,7 +10,7 @@ int main() {
     if(x>v){
         printf("%d",x);
     }
-    else{
+    else if(v>x){
         printf("%d",x);
     }
 }
