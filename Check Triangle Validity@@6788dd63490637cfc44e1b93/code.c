@@ -5,9 +5,12 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,c;
+    int a,b,c,h,k,l;
     scanf("%f%f%f",&a,&b,&c);
-    if((b+c)>a || (a+b)>c || (a+c)>b){
+    k=a+b;
+    h=b+c;
+    l=a+c;
+    if((h>a || k>c || l>b){
         printf("Valid");
     }
     else {
