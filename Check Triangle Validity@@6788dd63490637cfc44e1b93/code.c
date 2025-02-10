@@ -10,7 +10,7 @@ int main() {
     k=a+b;
     h=b+c;
     l=a+c;
-    if((h>a || k>c || l>b){
+    if(h>a || k>c || l>b){
         printf("Valid");
     }
     else {
