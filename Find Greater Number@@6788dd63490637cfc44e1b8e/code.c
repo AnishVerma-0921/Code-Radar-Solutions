@@ -13,4 +13,7 @@ int main() {
     else if(v>x){
         printf("%d",v);
     }
+    else{
+        printf("0")
+    }
 }
