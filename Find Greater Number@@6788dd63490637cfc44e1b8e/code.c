@@ -14,6 +14,7 @@ int main() {
         printf("%d",v);
     }
     else{
-        printf("0")
+        printf("0");
+        
     }
 }
