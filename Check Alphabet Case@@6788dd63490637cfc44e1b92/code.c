@@ -12,7 +12,7 @@ int main() {
         printf("Uppercase");
     }
     else if(c>='a' && c<='z'){
-        printf(islower(c));
+        printf("Lowercase");
     }
     else{
         printf("Not an alphabet");
