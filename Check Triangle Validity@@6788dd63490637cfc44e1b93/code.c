@@ -10,9 +10,16 @@ int main() {
     k=a+b;
     h=b+c;
     l=a+c;
-    if(h>a || k>c || l>b){
+    if(h>a ){
         printf("Valid");
     }
+    else if(k>c){
+        print("Valid");
+    }
+     else if(l>b){
+        print("Valid");
+    }
+
     else {
         printf("Invalid");
     }
