@@ -10,7 +10,8 @@ int main() {
     if(x==0){
         printf("Even");
     }
-    else{
+    else if(x!=0){
         printf("Odd");
     }
+    
 }
