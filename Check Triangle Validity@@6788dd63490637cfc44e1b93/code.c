@@ -5,22 +5,19 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,c,h,k,l;
+    float a,b,c;
     scanf("%f%f%f",&a,&b,&c);
-    k=a+b;
-    h=b+c;
-    l=a+c;
-    if(h>a ){
+
+    if((a>b && a>c) && (b+c)>a){
         printf("Valid");
     }
-    else if(k>c){
-        print("Valid");
+    else if((b>a && b>c) && (a+c)>b){
+        printf("Valid");
     }
-     else if(l>b){
-        print("Valid");
+    else if((c>a && c>b) && (a+b)>c){
+        printf("Valid");
     }
-
-    else {
+    else{
         printf("Invalid");
     }
 }
