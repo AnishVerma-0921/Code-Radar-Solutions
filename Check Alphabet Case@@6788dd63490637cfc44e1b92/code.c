@@ -11,7 +11,7 @@ int main() {
         printf("Uppercase");
     }
     else if(c=="a,s,d,f,g,h,j,k,l,z,x,c,v,b,n,m,q,w,e,r,t,y,u,i,o,p"){
-        printf("Lowercase")
+        printf("Lowercase");
     }
     else{
         printf("Not an alphabet");
