@@ -11,6 +11,6 @@ int main() {
         printf("%d",x);
     }
     else if(v>x){
-        printf("%d",x);
+        printf("%d",v);
     }
 }
