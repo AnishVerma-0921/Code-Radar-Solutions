@@ -20,6 +20,6 @@ int main() {
         printf("D");
     }
     else{
-        printf("F")
+        printf("F");
     }
 }
