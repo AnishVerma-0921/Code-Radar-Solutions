@@ -2,7 +2,7 @@
 int main(){
     int x,i,j;
     scanf("%d",&x);
-    while(x<=10){
+    while(i<=10){
         j=x*i;
         printf("%d x %d = %d",x,i,j);
         i++;
