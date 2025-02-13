@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int x,i,j;
+    int x,i=1,j;
     scanf("%d",&x);
     while(i<=10){
         j=x*i;
