@@ -5,6 +5,6 @@ int main(){
     while(i<=x){
         j=i+i;
         i++;
-        printf("%d",x);
+        printf("%d",j);
     }
 }
