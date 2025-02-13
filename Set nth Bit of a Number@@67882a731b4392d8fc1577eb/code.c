@@ -6,5 +6,6 @@ int main(){
     scanf("%d%d",&x,&y);
     fina=x+pow(2,y);
     printf("%d",fina);
+    return 0;
 
 }
