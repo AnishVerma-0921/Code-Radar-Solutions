@@ -22,16 +22,13 @@ int main() {
     }
     
     printf("%d", n);
-    for(int i = 0; i < n; i++) {
-        printf("%d: ", i+1);
-        scanf("%d", &arr[i]);
-    }
+    
     
     
     scanf("%d", &K);
     
     int occurrences = countValue(arr, n, K);
-    printf(" %d %d" , K, occurrences);
+    printf(" %d",  occurrences);
     
     return 0;
 }
