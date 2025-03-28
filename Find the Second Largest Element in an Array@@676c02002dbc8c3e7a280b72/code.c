@@ -11,7 +11,7 @@ void sec(int arr[],int n){
         }
     }
 }
-int main{
+int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
