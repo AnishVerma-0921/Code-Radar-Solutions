@@ -4,17 +4,17 @@ int main() {
     int arr[100], n, K, count = 0;
     
     // Input the number of elements
-    printf("Enter the number of elements in the array (max 100): ");
+    
     scanf("%d", &n);
     
     // Input array elements
-    printf("Enter %d integers:\n", n);
+    printf("%d", n);
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     
     // Input the value to search for
-    printf("Enter the value to count: ");
+    
     scanf("%d", &K);
     
     // Count occurrences of K
@@ -25,7 +25,7 @@ int main() {
     }
     
     // Print the result
-    printf("The value %d appears %d times in the array.\n", K, count);
+    printf("%d%d ", K, count);
     
     return 0;
 }
