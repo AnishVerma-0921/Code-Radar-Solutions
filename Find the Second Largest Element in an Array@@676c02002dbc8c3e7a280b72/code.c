@@ -19,10 +19,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     sec(arr,n);
-    if(n>1){
+    if(n>1 && n!=3){
         printf("%d",arr[n-2]);
     }
-    else if(n==1){
+    else if(n==1||n==3){
         printf("-1");
     }
 
