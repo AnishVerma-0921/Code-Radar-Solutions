@@ -6,14 +6,10 @@ int main(){
     for (int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int temp[n];
     int k;
-    scanf(" %d",&k);
+    scanf("%d",&k);
     for(int i=0;i<k;i++){
-        temp[i]=arr[n-i-1];
-    }
-    for (int i=0;i<n;i++){
-        arr[i]=temp[i];
+        arr[n-i-1]=arr[i];
     }
     for(int i=0;i<n;i++){
         printf("%d\n",arr[i]);
