@@ -21,6 +21,7 @@ int main(){
         }
         else if(k!=arr[i] && k!=arr[n-i]){
             printf("-1");
+            break;
         }
         
     }
