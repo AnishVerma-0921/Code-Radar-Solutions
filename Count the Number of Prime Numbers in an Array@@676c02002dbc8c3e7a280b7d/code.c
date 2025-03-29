@@ -1,5 +1,5 @@
 #include<stdio.h>
-bool prime(int n){
+int prime(int n){
     if(n<=1){
         return ;
     }
