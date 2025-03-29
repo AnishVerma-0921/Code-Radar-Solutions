@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n,ak;
+    int n;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -15,7 +15,7 @@ int main(){
             
         }
         else if(k!=arr[i]){
-            ak='-1';
+            
             break;
             printf("-1");
         }
