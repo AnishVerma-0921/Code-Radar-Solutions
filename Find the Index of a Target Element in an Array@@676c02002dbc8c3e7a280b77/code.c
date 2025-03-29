@@ -14,8 +14,8 @@ int main(){
             break;
             
         }
-        else if(k!=arr[i]){
-            printf("-1");
+        else if(k==arr[i] && k==arr[i+1]){
+            printf("0");
             break;
             
         }
