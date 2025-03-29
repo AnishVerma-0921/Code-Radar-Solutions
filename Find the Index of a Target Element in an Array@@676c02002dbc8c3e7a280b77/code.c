@@ -19,7 +19,7 @@ int main(){
             break;
             
         }
-        else{
+        else if(k!=arr[i] && k!=arr[n-i]){
             printf("-1");
         }
         
