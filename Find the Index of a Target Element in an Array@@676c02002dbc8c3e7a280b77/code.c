@@ -16,7 +16,7 @@ int main(){
         }
         else if(k!=arr[i]){
             printf("-1");
-            break;
+            continue;
         }
     }
     
