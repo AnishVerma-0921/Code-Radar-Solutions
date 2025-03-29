@@ -11,7 +11,7 @@ int prime(int n){
     return 1;
 }
 int main(){
-    int n,aka;
+    int n,aka=0;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -19,8 +19,8 @@ int main(){
     }
     for(int i=0;i<n;i++){
         if(prime(arr[i])==1){
-            int aka=0;
-            aka++;
+            aka=aka+1;
+            
         }
     }
     printf("%d",aka);
