@@ -5,7 +5,7 @@ int prime(int n){
     }
     for(int i=2;i*i<=n;i++){
         if(n%i==0){
-            return ' ';
+            return '1';
         }
     }
     return true;
@@ -18,7 +18,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if(prime(arr[i])=='true'){
+        if(prime(arr[i])==1){
             int aka=0;
             aka++;
         }
