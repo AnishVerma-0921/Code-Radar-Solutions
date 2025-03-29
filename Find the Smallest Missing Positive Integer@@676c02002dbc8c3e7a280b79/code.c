@@ -20,6 +20,7 @@ int main(){
         if(arr[i]==arr[i+1]+1){
             ann=arr[n-1]+1;
             printf("%d",ann);
+            break;
         }
     }
 }
