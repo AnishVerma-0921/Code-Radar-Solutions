@@ -11,7 +11,7 @@ int prime(int n){
     return 1;
 }
 int main(){
-    int n;
+    int n,aka;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
