@@ -16,5 +16,8 @@ int main(){
             printf("NO");
             break;
         }
+        else if(sizeof(arr)=1){
+            printf("YES");
+        }
     }
 }
