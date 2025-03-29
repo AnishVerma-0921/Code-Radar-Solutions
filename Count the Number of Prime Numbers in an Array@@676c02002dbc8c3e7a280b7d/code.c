@@ -1,11 +1,11 @@
 #include<stdio.h>
 bool prime(int n){
     if(n<=1){
-        return false;
+        return ;
     }
     for(int i>=2;i*i<=n;i++){
         if(n%i==0){
-            return false;
+            return ;
         }
     }
     return true;
@@ -22,5 +22,6 @@ int main(){
             int aka=0;
             aka++;
         }
-    }printf("%d",aka);
+    }
+    printf("%d",aka);
 }
