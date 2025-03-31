@@ -12,6 +12,9 @@ int main(){
             break;
 
         }
+        else if(n==1){
+            printf("YES");
+        }
         
         else{
             printf("NO");
