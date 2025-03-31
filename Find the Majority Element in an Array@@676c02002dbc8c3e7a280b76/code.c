@@ -20,7 +20,7 @@ int main(){
         }
         
     }
-    if(arr[i]!=0){
+    if(fre[i]!=0){
             fre[i]=count;
         }
     for(int i=0;i<n;i++){
