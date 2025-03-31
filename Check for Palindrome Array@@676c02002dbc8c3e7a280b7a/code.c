@@ -14,6 +14,7 @@ int main(){
         }
         else if(n==1){
             printf("YES");
+            break;
         }
         
         else{
