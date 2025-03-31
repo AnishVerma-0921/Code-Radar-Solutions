@@ -29,8 +29,8 @@ int main(){
             printf("%d",arr[i]);
             continue;
         }
-        else if(fre[i]==fre[i+1]){
-            printf("-1");
+        if(n==1){
+            printf("%d",arr[0]);
         }
         
     }
