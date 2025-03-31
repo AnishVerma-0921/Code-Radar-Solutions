@@ -29,9 +29,6 @@ int main(){
             printf("%d",arr[i]);
             continue;
         }
-        else{
-            printf("-1");
-            continue;
-        }
+        
     }
 }
