@@ -19,6 +19,11 @@ int main(){
             break;
             
         }
+        for(int j=0;j<n;j++){
+            if(arr[i]!=k){
+                printf("-1");
+            }
+        }
         
         
     }
