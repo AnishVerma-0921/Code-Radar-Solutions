@@ -32,9 +32,7 @@ int main(){
         if(n==1){
             printf("%d",arr[0]);
         }
-        if(fre[i]==fre[i+1]){
-            printf("-1");
-        }
+        
         
     }
 }
