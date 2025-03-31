@@ -18,11 +18,12 @@ int main(){
                 fre[j]=0;
             }
         }
-        
-    }
-    if(fre[i]!=0){
+        if(fre[i]!=0){
             fre[i]=count;
         }
+        
+    }
+    
     for(int i=0;i<n;i++){
         if(arr[i]!=0){
             printf("%d",fre[i]);
