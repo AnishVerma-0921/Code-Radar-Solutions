@@ -27,9 +27,11 @@ int main(){
     for(int i=0;i<n;i++){
         if(fre[i]!=0){
             printf("%d",arr[i]);
+            continue;
         }
         else{
             printf("-1");
+            continue;
         }
     }
 }
