@@ -12,7 +12,7 @@ int main(){
             break;
 
         }
-        else if(n==2){
+        else if(n==1){
             printf("YES");
             break;
         }
