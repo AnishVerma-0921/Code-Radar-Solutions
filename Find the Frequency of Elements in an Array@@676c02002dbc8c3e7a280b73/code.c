@@ -25,7 +25,7 @@ int main(){
     }
     for(int i = 0; i < n; i++) {
         if(freq[i] != 0) {
-            printf("%5d %9d\n", arr[i], freq[i]);
+            printf("%5d%9d\n", arr[i], freq[i]);
         }
     }
 }
