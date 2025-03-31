@@ -28,5 +28,8 @@ int main(){
         if(fre[i]!=0){
             printf("%d",arr[i]);
         }
+        else{
+            printf("-1");
+        }
     }
 }
