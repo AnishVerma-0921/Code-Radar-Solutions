@@ -11,7 +11,7 @@ int main(){
         fre[i]=-1;
     }
     for(int i=0;i<n;i++){
-        int count;
+        int count=0;
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
