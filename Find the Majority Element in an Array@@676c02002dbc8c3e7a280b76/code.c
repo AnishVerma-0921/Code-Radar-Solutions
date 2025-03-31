@@ -18,9 +18,9 @@ int main(){
                 fre[j]=0;
             }
         }
-            else if(arr[i]!=0){
-                fre[i]=count;
-            }
+        if(arr[i]!=0){
+            fre[i]=count;
+        }
     }
     for(int i=0;i<n;i++){
         if(arr[i]!=0){
